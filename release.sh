@@ -2,6 +2,7 @@
 
 export APPLE_ID=""
 export APPLE_ID_PASSWORD=""
+export NODE_OPTIONS=--openssl-legacy-provider
 
 yarn clean
 rm -rf ./node_modules ./dist
